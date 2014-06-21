@@ -1,0 +1,23 @@
+Jesse Greenberg
+Homework Assignment 2
+Rendering a 3D scene
+
+Compile with the Makefile using the 'make clean'
+and 'make' commands.
+
+User Input:
+	Escape key - close the program
+	'0' - reset view angle
+	'm' - switch projection mode
+	'+' - zoom in
+	'-' - zoom out
+	viewpoint navigation - arrow keys
+
+Additional Information:
+	Rendering the Scene works, but there is some 
+	lagging when changing the view angle.
+	Implementing Face Culling could fix this.  Another
+	option could be to decrease the number of
+	cylinders which form the base for each piece.  
+	Sacrifice smoothness in curvature of pieces
+	for swift rendering.
